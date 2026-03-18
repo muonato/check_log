@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# muonato/check_logs @ GitHub (18-MAR-2026)
+# muonato/check_log @ GitHub (18-MAR-2026)
 #
 # Reports latest match for search phrase in a log file
 #
