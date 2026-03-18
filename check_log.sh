@@ -29,6 +29,8 @@ Usage: $(basename "$0") -f </path/to/file> -s '<search>' [OPTIONS]
 
 OPTIONS
     -h display this help menu
+    -w warning threshold ( default: 7 days )
+    -c critical threshold ( default: 3 days )
 EOF
 exit 3
 }
