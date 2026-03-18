@@ -5,7 +5,7 @@
 # Reports latest match for search phrase in a log file
 #
 # Usage:
-#       bash check_logs.sh -f </path/log> -s <keyword>
+#       bash check_log.sh -f </path/log> -s <keyword>
 #
 # Arguments:
 #       -f : path to log file
@@ -19,12 +19,12 @@
 # Examples:
 #       1. Search keyword in logfile
 #
-#          $ bash check_logs -f /path/to/sys.log -w "ERROR"
+#          $ bash check_log.sh -f /path/to/sys.log -s "ERROR"
 #
 
 function help() {
         cat <<EOF
-check_logs 18-MAR-2026 muonato@github
+check_log 18-MAR-2026 muonato@github
 Usage: $(basename "$0") -f </path/to/file> -s '<search>' [OPTIONS]
 
 OPTIONS
